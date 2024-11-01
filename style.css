@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    background-color: antiquewhite;
+}
+
+
+nav {
+
+    display: flex;
+    list-style: none;
+    gap: 10rem;
+    max-width: 1100px;
+    margin: 0px auto;
+
+}
+
+
+main {
+
+    max-width: 500px;
+    margin: 0px auto;
+    padding-top: 15rem;
+    
+    
+}
+
+.iron {
+
+    padding-top: 3rem;
+    font-size: 20px;
+}
+
+.sent {
+
+    padding-top: 1.5rem;
+    font-size: 25px;
+    margin: 0 15px;
+    padding: 10px 15px;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    background-color: cyan;
+    color: black;
+    font-size: 20px;
+    box-shadow: 12px 4px 32px -12px rgba(0,15,217,1);
+    -webkit-box-shadow: 12px 4px 32px -12px rgba(0,15,217,1);
+    -moz-box-shadow: 12px 4px 32px -12px rgba(0,15,217,1);
+    cursor: pointer;
+    
+    
+
+}
+button {
+    
+    margin: 0 15px;
+    padding: 10px 15px;
+    
+    border-radius: 12px;
+    
+    
+
+}
+
+button:hover {
+    background-color: rgb(176, 144, 212);
+    color: black;
+    font-size: 20px;
+    box-shadow: 12px 4px 32px -12px rgba(0,15,217,1);
+    -webkit-box-shadow: 12px 4px 32px -12px rgba(0,15,217,1);
+    -moz-box-shadow: 12px 4px 32px -12px rgba(0,15,217,1);
+    cursor: pointer;
+
+
+}
+button::after {
+
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: chartreuse;
+    margin: auto;
+    display: block;
+    transition: width 0.5s;
+
+}
+
+button:hover::after {
+
+    width: 100%;
+
+}
+    
+
+
+.h2 {
+
+    padding-top: .50rem;
+    font-size: 50px;
+}
+
